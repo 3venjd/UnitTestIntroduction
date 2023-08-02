@@ -5,7 +5,15 @@ VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MsTest1", "MsTest1\MsTest1.csproj", "{63FA1575-F322-4D59-8865-D2F5FE6FFC1C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator.csproj", "{1827AA48-623E-4FAF-89C1-C2A182A3F2E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator", "Calculator\Calculator.csproj", "{1827AA48-623E-4FAF-89C1-C2A182A3F2E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{0E1DB94C-C9BA-4D58-9958-892AA631A56F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{06D4BAEE-30D7-47B5-89D5-AD99AD27D852}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTO", "DTO\DTO.csproj", "{91783B79-96A1-47DF-9ED4-201D0A95F0D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{B0955215-B1CD-4129-B393-96E044747F58}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +29,22 @@ Global
 		{1827AA48-623E-4FAF-89C1-C2A182A3F2E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1827AA48-623E-4FAF-89C1-C2A182A3F2E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1827AA48-623E-4FAF-89C1-C2A182A3F2E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E1DB94C-C9BA-4D58-9958-892AA631A56F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E1DB94C-C9BA-4D58-9958-892AA631A56F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E1DB94C-C9BA-4D58-9958-892AA631A56F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E1DB94C-C9BA-4D58-9958-892AA631A56F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06D4BAEE-30D7-47B5-89D5-AD99AD27D852}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06D4BAEE-30D7-47B5-89D5-AD99AD27D852}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06D4BAEE-30D7-47B5-89D5-AD99AD27D852}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06D4BAEE-30D7-47B5-89D5-AD99AD27D852}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91783B79-96A1-47DF-9ED4-201D0A95F0D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91783B79-96A1-47DF-9ED4-201D0A95F0D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91783B79-96A1-47DF-9ED4-201D0A95F0D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91783B79-96A1-47DF-9ED4-201D0A95F0D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0955215-B1CD-4129-B393-96E044747F58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0955215-B1CD-4129-B393-96E044747F58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0955215-B1CD-4129-B393-96E044747F58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0955215-B1CD-4129-B393-96E044747F58}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

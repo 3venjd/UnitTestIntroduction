@@ -1,5 +1,3 @@
-using Calculator;
-
 namespace MsTest1
 {
     [TestClass]
